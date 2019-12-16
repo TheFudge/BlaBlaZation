@@ -5,7 +5,7 @@ An open source unity localization plugin to be used in your next project.
 You can use this plugin wether your app is commercial, private or non-commercial.
 But please include this notice in your credits if you have any: 
 
-Localization by BlatherLocalization (since 2019). Find it on github.com/TheFudge/BlatherLocalization.
+Localization by Blather. Find it on github.com/TheFudge/BlatherLocalization.
 
 Furthermore, I would be thrilled to see what types of products use this plugin so drop me a line about your product if you have a bit of spare time.
 
