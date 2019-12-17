@@ -3,7 +3,7 @@ An open source unity localization plugin to be used in your next project.
 
 [Documentation](docs/Home.md)
 
-[Licence](Licence.md)
+[License](LICENSE)
 
 ## Terms of Use
 You can use this plugin wether your app is commercial, private or non-commercial.
