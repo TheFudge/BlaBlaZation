@@ -1,7 +1,9 @@
 # BlatherLocalization
 An open source unity localization plugin to be used in your next project.
 
-[View the full documentation here.(docs/Home.md)]
+[Documentation](docs/Home.md)
+
+[Licence](Licence.md)
 
 ## Terms of Use
 You can use this plugin wether your app is commercial, private or non-commercial.
