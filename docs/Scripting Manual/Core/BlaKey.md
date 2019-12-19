@@ -16,3 +16,8 @@ They can be used to add values to variables inside the code and attach Unity Com
 BlatherKey key = BlatherKey.Get("TestKey");
 BlatherInstance instance = key.GetInstance();
 ```
+
+## Getters And Setters
+
+### UnityAction OnChange
+Called, if the translation string of this instance changed.
