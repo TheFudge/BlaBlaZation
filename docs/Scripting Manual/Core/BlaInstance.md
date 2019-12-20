@@ -21,28 +21,12 @@ highscoreContent.Value = 1024;
 
 ## Dynamic Methods
 
-### BlaInstance SetContent(string variable, string content)
-Sets the variable to a string value.
+### BlaInstance SetContent\<T>(string variable, T content, string format = "N0")
+Sets the variable to the specified value.
 Returns itself.
 
-### BlaInstance SetContent(string variable, int content, string format = "N0")
-Sets the variable to an integer value.
-Returns itself.
-
-### BlaInstance SetContent(string variable, string content, string format = "N2")
-Sets the variable to a float value.
-Returns itself.
-
-### BlaInstance SetContent(string variable, bool content
-Sets the variable to the specified content.
-Returns itself.
-
-### BlaInstance SetContent(string variable, BlatherInstance content)
-Sets the variable to another BlatherInstance.
-Returns itself.
-
-### BlaContent GetContent(string variable)
-Gets a BlatherContent.
+### BlaContent\<T> GetContent\<T>(T variable)
+Gets a BlatherContent with a specific value.
 
 ### BlaInstance SetDisposeType(BlaInstance.DisposeType)
 Sets a dispose type for this BlaInstance.
