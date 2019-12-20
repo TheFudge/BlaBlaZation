@@ -2,7 +2,8 @@
 To use an instance, you need to retrieve it. You can specify the container it is in or dont specify a container. If no container is specified the default container will be used.
 ```csharp
 BlaInstance instance = BlaCore.Instance(string key)
-instance.SetContent("Highscore", 55).SetContent("Player", Player.Name);
+instance.SetContent<int>("Highscore", 55);
+instance.SetContent<string>("Player", Player.Name);
 BlaContent highscoreContent = instance.GetContent("Highscore");
 
 // Attach to a TextMeshPro Element or a Text Element
@@ -21,7 +22,7 @@ highscoreContent.Value = 1024;
 
 ## Dynamic Methods
 
-### BlaInstance SetContent\<T>(string variable, T content, string format = "N0")
+### BlaContent\<T> SetContent\<T>(string variable, T content, string format = "N0")
 Sets the variable to the specified value.
 Returns itself.
 
