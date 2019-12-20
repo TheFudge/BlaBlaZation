@@ -20,6 +20,7 @@ BlaContent<int> intContent = instance.SetContent<int>("MyVariable", 5, "N0");
 Updates the variables content to the specified value. Note that you cannot change the type of the value here.
 If you start the content with an integer value you will onyl be able to specify a integer value.
 For a different value type please use 
-```chsarp
+
+```csharp
 BlaInstance.SetContent<T>(string variable, T value, string format = "")
 ```
